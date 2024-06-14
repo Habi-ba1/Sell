@@ -1,0 +1,3 @@
+I used the approach i was taught in class and made some referrals from Youtube.
+I started having challenges right after typing the exact codes we learnt in class. Then i started looking critically at my codes but it still wasn't being responsive so i went to a friend to compare our codes. I had to remove some spaces in my code and introduce only close to the media query screen. After that, it still wasn't working then check the figures i have inputed and it finally worked.
+But till now, there is one problem i am facing and still hasn't been solve. My social media icons aren't responsive to the various devive screens i have assigned it to.

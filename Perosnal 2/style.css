@@ -1,0 +1,573 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.row1{
+    height: 100vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('i2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home {
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    color: black;
+    font-size: 30px;
+    
+}
+
+span{
+    color: cyan;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.active, .row1 ul li:hover {
+    background-color: cyan;
+    border-radius: 3px;
+
+} 
+
+.title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: white;
+    font-size: 50px;
+}
+.button{
+    position: absolute;
+    top:62%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color:aqua;
+}
+
+@keyframes lfc {
+    0% {background-image: url(i6.jpg);}
+    25% {background-image: url(i2.jpg);}
+    50% {background-image: url(i3.jpg);}
+    75% {background-image: url(i4.jpg);}
+    100% {background-image: url(i5.jpg);}
+    0% {background-image: url(i6.jpg);}
+}
+
+
+.social-links{
+    display: flex;
+    margin: 10px;
+    margin-top: 50%;
+}
+
+.social-links a{
+    width: 45px;
+    height: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 18% 20px;
+    border-radius: 50%;
+    position: relative;
+    font-size: 15px;
+}
+
+.social-links a .fa-brands{
+    
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 5px 5px;
+    color: cyan;
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+
+.social-links a .fa-brands:hover{
+    background-color: white;
+    color:cyan;
+}
+
+.img{
+    float: right;
+    width: 50%;
+    padding-right: 5px;
+    padding-left: 30px;  
+}
+
+p{
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.pos-cen{
+    position: absolute;
+    width: 90%;
+    padding: 5px;
+}
+
+.btn2{
+    display: inline;
+    margin-top: 3rem;
+    border-radius: 5rem;
+    background: black;
+    color: antiquewhite;
+    padding: .4rem 1.2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 60px;
+    text-decoration: none;
+    
+}
+
+.btn2:hover{
+    background: cyan;
+}
+
+.about {
+    min-height: 100vh;
+}
+
+.Products {
+    min-height: 100vh;
+}
+
+.images img {
+    align-items: center;
+    margin: 10px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+
+}
+
+.Contact {
+    min-height: 100vh;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+  }
+  
+  input[type=submit] {
+    background-color: cyan;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #5a5b5c;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*//these codes are for media queries*/
+
+@media only screen and (max-width:482px){
+    .row1{
+        height: 100vh;
+        width: 100%;
+        background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('i4.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+        nav ul li{
+            list-style-type: none;
+            display: block;
+            padding: 10px 20px;
+            font-size: 10px;
+            border: 1px solid transparent;
+        }
+
+        .title{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        
+        .button{
+            position: relative;
+            top:30%;
+            left:60%;
+            transform: translate(-50%,-50%);
+            
+        }
+        
+        .btn{
+            border: 1px solid;
+            padding: 5px 30px;
+            color: white;
+            text-decoration: none;
+            transition: 0.6s ease;
+            justify-content: center;
+        }
+
+
+    p {
+        color: red;
+    font-size: 15px;
+    line-height: 20px;}
+    }
+
+    .social-links{
+        display: flex;
+        margin: 10px;
+        margin-top: 30%;
+    }
+    
+    .social-links a{
+        width: 45px;
+        height: 50%;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        margin: 18% 20px;
+        border-radius: 50%;
+        position: relative;
+        line-height: 50px;
+        font-size: 15px;  
+    }
+    
+    .social-links a .fa-brands{
+        
+        border: 1px solid;
+        border-radius: 50%;
+        padding: 5px 5px;
+        color: cyan;
+        text-decoration: none;
+        transition: 0.6s ease;
+    
+    }
+    
+    .social-links a .fa-brands:hover{
+        background-color: white;
+        color:cyan;
+    }
+    
+
+
+    
+    @media only screen and (min-width:481px){
+        .row1{
+            height: 100vh;
+            width: 100%;
+            background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('i6.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        p {
+            color: black;
+        font-size: 15px;
+        line-height: 20px;
+    }
+        }
+
+        .title{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        .button{
+            position: absolute;
+            top:62%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            margin-top: 20px;
+        }
+        
+        .btn{
+            border: 1px solid;
+            padding: 5px 15px;
+            color: white;
+            text-decoration: none;
+            transition: 0.6s ease;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+            padding: 5px 10px;
+            border: 1px solid transparent;
+        }
+
+        .social-links{
+            display: flex;
+            margin: 10px;
+            margin-top: 30%;
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        @media only screen and (min-width:1025px){
+            .row1{
+                height: 100vh;
+                width: 100%;
+                background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('i7.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        
+            p {
+                color: black;
+            font-size: 15px;
+            line-height: 20px;
+        }
+           
+            nav{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-top: 40px;
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+            
+            .logo{
+                color: black;
+                font-size: 30px;
+                
+            }
+            
+            span{
+                color: cyan;
+            }
+            
+            nav ul li{
+                list-style-type: none;
+                display: inline-block;
+                padding: 10px 20px;
+                border: 1px solid transparent;
+            }
+            
+            nav ul li a{
+                color: antiquewhite;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            
+            nav ul li a:hover{
+                color: black;
+                transition: 0.3s;
+            }
+            
+            
+            
+            .title{
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                color: black;
+                font-size: 40px;
+            }
+            
+            .title h1{
+                color: white;
+                font-size: 50px;
+            }
+            .button{
+                position: absolute;
+                top:62%;
+                left:50%;
+                transform: translate(-50%,-50%);
+            }
+            
+            .btn{
+                border: 1px solid;
+                padding: 10px 50px;
+                color: white;
+                text-decoration: none;
+                transition: 0.6s ease;
+            
+            }
+            
+            .btn:hover{
+                background-color: white;
+                color:aqua;
+            }
+            
+            
+            
+            .img{
+                float: right;
+                width: 50%;
+                padding-right: 5px;
+                padding-left: 30px;  
+            }
+            
+            
+            
+            .pos-cen{
+                position: absolute;
+                width: 90%;
+                padding: 5px;
+            }
+
+            .social-links{
+                display: flex;
+                margin: 10px;
+                margin-top: 15%;
+            }
+            
+            .social-links a{
+                width: 45px;
+                height: 50%;
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                margin: 18% 20px;
+                border-radius: 50%;
+                position: relative;
+                line-height: 50px;
+                font-size: 15px;  
+            }
+            
+            .social-links a .fa-brands{
+                
+                border: 1px solid;
+                border-radius: 50%;
+                padding: 5px 5px;
+                color: cyan;
+                text-decoration: none;
+                transition: 0.6s ease;
+            
+            }
+            
+            .social-links a .fa-brands:hover{
+                background-color: white;
+                color:cyan;
+            }
+            
+        }
+            
+    
+    
+
+
+
+
